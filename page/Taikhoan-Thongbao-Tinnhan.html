@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style/StyleSheet.css">
+    <link rel="stylesheet" type="text/css" href="style/footer.css">
+</head>
+<body style="background-color: #A1DFED;">
+    <div class="container-fluid  ">
+        <div class="container bg-05081b-small">
+            <nav class="navbar navbar-expand-lg navbar-dark ">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+                    aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <img src="icon/72417960_1902717559867393_4399122052519297024_n.png" class="img-logo mb-auto ">
+                <div class="collapse navbar-collapse mb-5 " id="navbarTogglerDemo03">
+                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0 bg-05081b-nav ">
+                        <li>
+                            <form class=" input-group-lg mb-auto ">
+                                <input class="form-control  search-bar-no-radius" type="search" placeholder="Search"
+                                    aria-label="Search">
+                            </form>
+                        </li>
+                        <li class="nav-item active ">
+                            <a class="nav-link" href="Hocbongcuatoi.html" target="_blank"> <i
+                                    class="fas fa-graduation-cap no-border"></i> Học bổng của
+                                tôi <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item d-none d-xl-block ">
+                            <div class="dropdown show">
+                                <a class=" nav-link " href="#" role="button" id="dropdownMenuLink"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="far fa-bell"></i> Thông báo
+                                </a>
+                                <div class="dropdown-menu  bg-EBEEF5" aria-labelledby="dropdownMenuLink"
+                                    style="border-radius:0px ;">
+                                    <p class="text-uppercase  " style="width: 450px; background: lightgray;"> thông báo
+                                        mới</p>
+                                    <a class="dropdown-item" href="#">
+                                        <table>
+                                            <tr>
+                                                <td style="width: 10%;">
+                                                    <img src="Images/trans.png" class="w-100">
+                                                </td>
+                                                <td>
+                                                    Học bổng của bạn đang được duyệt
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <table>
+                                            <tr>
+                                                <td style="width: 10%;">
+                                                    <img src="Images/trans.png" class="w-100">
+                                                </td>
+                                                <td>
+                                                    Học bổng của bạn đang cần chỉnh sửa một chút
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <table>
+                                            <tr>
+                                                <td style="width: 10%;">
+                                                    <img src="Images/trans.png" class="w-100">
+                                                </td>
+                                                <td>
+                                                    Thằng lone nào đó đang muốn kết nối với bạn
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </a>
+                                    <p class="text-uppercase " style="width: 450px; background: lightgray;"> trước đó
+                                    </p>
+                                    <a class="dropdown-item" href="#">
+                                        <table>
+                                            <tr>
+                                                <td style="width: 10%;">
+                                                    <img src="Images/trans.png" class="w-100">
+                                                </td>
+                                                <td>
+                                                    Học bổng của bạn đang cần chỉnh sửa một chút
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <table>
+                                            <tr>
+                                                <td style="width: 10%;">
+                                                    <img src="Images/trans.png" class="w-100">
+                                                </td>
+                                                <td>
+                                                    Thằng lone nào đó đang muốn kết nối với bạn
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </a>
+                                    <a class="dropdown-item btn-xemtatca" href="#" style="width: 450px; ">Xem tất cả
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item  d-none d-xl-block">
+                            <div class="dropdown show ">
+                                <a class=" nav-link " href="#" role="button" id="dropdownMenuLink"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="far fa-envelope"></i>Tin nhắn
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-center bg-EBEEF5"
+                                    aria-labelledby="dropdownMenuLink" style="border-radius:0px ;  ">
+                                    <p class="text-uppercase " style="width: 450px; background: lightgray;"> tin nhắn
+                                        mới</p>
+                                    <a class="dropdown-item" href="#">
+                                        <table>
+                                            <tr>
+                                                <td style="width: 10%;">
+                                                    <img src="Images/trans.png" class="w-100">
+                                                </td>
+                                                <td>
+                                                    Học bổng của bạn đang được duyệt
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <table>
+                                            <tr>
+                                                <td style="width: 10%;">
+                                                    <img src="Images/trans.png" class="w-100">
+                                                </td>
+                                                <td>
+                                                    Học bổng của bạn đang cần chỉnh sửa một chút
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <table>
+                                            <tr>
+                                                <td style="width: 10%;">
+                                                    <img src="Images/trans.png" class="w-100">
+                                                </td>
+                                                <td>
+                                                    Thằng lone nào đó đang muốn kết nối với bạn
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <table>
+                                            <tr>
+                                                <td style="width: 10%;">
+                                                    <img src="Images/trans.png" class="w-100">
+                                                </td>
+                                                <td>
+                                                    Học bổng của bạn đang cần chỉnh sửa một chút
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <table>
+                                            <tr>
+                                                <td style="width: 10%;">
+                                                    <img src="Images/trans.png" class="w-100">
+                                                </td>
+                                                <td>
+                                                    Thằng lone nào đó đang muốn kết nối với bạn
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </a>
+                                    <a class="dropdown-item btn-xemtatca" href="#" style="width: 450px; ">Xem tất cả
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class=" nav-item d-xl-none">
+                            <a class="nav-link " href="Hocbongcuatoi.html" target="_blank">Thông báo </a>
+                        </li>
+                        <li class="nav-item d-xl-none">
+                            <a class="nav-link" href="#" target="_blank"> Tin nhắn </a>
+                        </li>
+                        <li class="nav-item">
+                            <div class="dropdown">
+                                <a class="nav-link" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    <i class="far fa-user-circle "></i>
+                                    Lê Văn A
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-right bg-EBEEF5 " style="border-radius: 0px;;"
+                                    aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item" href="#">Thông tin tài khoản</a>
+                                    <a class="dropdown-item" href="#">Đăng xuất</a>
+                                    <a class="dropdown-item" href="#">Cài đặt</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="container bg-white border ">
+            <div class="row ">
+                <div class="col-12 p-0">
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item">
+                            <a class="nav-link active " data-toggle="tab" href="#taikhoan">Tài khoản</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#tinnhan">Tin nhắn</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#thongbao">Thông báo</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="taikhoan" class="container tab-pane active"><br>
+                            <div class="row">
+                                <div class="col-12 row">
+                                    <div class="col-md-3 col-xs-12">
+                                        <img src="Images/trans.png" class="w-100">
+                                    </div>
+                                    <div class="col-md-9 col-xs-12 ">
+                                        <table>
+                                            <tr>
+                                                <td colspan="2">
+                                                    <h2 style="text-align: center;"> Nguyễn Văn A</h2>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="2 " style="font-size: 18px;" class="pb-lg-2"> Thông tin cá
+                                                    nhân: </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="pl-lg-5">
+                                                    <p> <i class="fas fa-birthday-cake"></i> 31/2/1999</p>
+                                                </td>
+                                                <td>
+                                                    <p> <i class="fas fa-home"></i> Ho Chi Minh City</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="pl-lg-5">
+                                                    <p> <i class="fas fa-graduation-cap"></i> THPT Phú Nhuận</p>
+                                                </td>
+                                                <td>
+                                                    <p> <i class="fas fa-graduation-cap"
+                                                            style="color: transparent;"></i> ĐH CNTT </p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="pl-lg-5">
+                                                    <p> <i class="fas fa-envelope"> nva@gmail.gom </i></p>
+                                                </td>
+                                                <td>
+                                                    <p> <i class="fas fa-phone"> 012345789</i></p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="2" style="font-size: 18px;" class="pb-lg-2"> Thành tích
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="pl-lg-5">
+                                                    <p> <i class="fas fa-trophy"></i> Thủ khoa đầu vào 2017 </p>
+                                                </td>
+                                                <td>
+                                                    <p> <i class="fas fa-trophy" style="color: transparent"></i> Á khoa
+                                                        đầu ra 2021</p>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="pl-lg-5" style="font-size: 18px;">
+                                        <div style="font-size: 20px;;"> Mục tiêu </div>
+                                        <div class="col-12">
+                                            - Lots of interesting and challenge projects to work on. </div>
+                                        <div class="col-12">
+                                            - 14th & 15th month salaries Depend on the performances of the business and
+                                            of
+                                            the Employee
+                                        </div>
+                                        <div class="col-12">
+                                            - Free in-house entertainment facilities (football), coffee and snack
+                                            (instant noodles, cookies, candies…)
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <div class=" row d-flex justify-content-center ">
+                                <button class="btn btn-update "><i class="fas fa-pencil-alt"></i> Cập nhật </button>
+                            </div>
+                        </div>
+                        <div id="tinnhan" class="container tab-pane fade"><br>
+                            <div class="row">
+                                <div class="tab col-md-3 col-12">
+                                    <button class="tablinks " onclick="openCity(event, 'London')" id="defaultOpen">
+                                        <table class="tb-message">
+                                            <tr>
+                                                <td rowspan="2" style="width: 15%;" align="center"> <img
+                                                        src="Images/trans.png" class="w-100 "> </td>
+                                                <td style="vertical-align: middle;">
+                                                    <b> UIT Academic</b>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    CMND của em không tồn tại
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </button>
+                                    <button class="tablinks" onclick="openCity(event, 'Paris')">
+                                        <table class="tb-message">
+                                            <tr>
+                                                <td rowspan="2" style="width: 15%;" align="center"> <img
+                                                        src="Images/trans.png" class="w-100 "> </td>
+                                                <td style="vertical-align: middle;">
+                                                    <b> Pinkspread University</b>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Hồ sơ của em sắp hoàn thành
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </button>
+                                    <button class="tablinks" onclick="openCity(event, 'Tokyo')">
+                                        <table class="tb-message">
+                                            <tr>
+                                                <td rowspan="2" style="width: 15%;" align="center"> <img
+                                                        src="Images/trans.png" class="w-100 "> </td>
+                                                <td style="vertical-align: middle;">
+                                                    <b> FPT Academic</b>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Hồ sơ của em cần chỉnh sửa
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </button>
+                                    <button class="tablinks" onclick="openCity(event, 'Newyork')">
+                                        <table class="tb-message">
+                                            <tr>
+                                                <td rowspan="2" style="width: 15%;" align="center"> <img
+                                                        src="Images/trans.png" class="w-100 "> </td>
+                                                <td style="vertical-align: middle;">
+                                                    <b> Bosch Academic</b>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Hồ sơ của em cần chỉnh sửa
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </button>
+                                </div>
+                                <div class="col-md-9 col-12">
+                                    <h4 class=""> UIT Academic
+                                        <hr>
+                                    </h4>
+                                    <div id="London" class="tabcontent1">
+                                        <table style="  width:100%; ">
+                                            <tr>
+                                                <td align="left" class="row">
+                                                    <img src="Images/trans.png" style="width: 25px; height: 25px;">
+                                                    <p class="mes-host ml-1">
+                                                        Chào em</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="right" class="row justify-content-end">
+                                                    <p class="mes-guest mr-1 "> Em chào admin ?</p>
+                                                    <img src="Images/trans.png" style="width: 25px; height: 25px;">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="left" class="row">
+                                                    <img src="Images/trans.png" style="width: 25px; height: 25px;">
+                                                    <p class="mes-host ml-1">
+                                                        Chị có nhận được hồ sơ xin học bổng của em</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="left" class="row">
+                                                    <img src="Images/trans.png" style="width: 25px; height: 25px;">
+                                                    <p class="mes-host ml-1">
+                                                        Thông tin của em đã đầy đủ chưa, có cần bổ sung gì không ?</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="right" class="row justify-content-end">
+                                                    <p class="mes-guest mr-1 "> Dạ không ạ</p>
+                                                    <img src="Images/trans.png" style="width: 25px; height: 25px;">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="left" class="row">
+                                                    <img src="Images/trans.png" style="width: 25px; height: 25px;">
+                                                    <p class="mes-host ml-1">
+                                                        Tuy nhiên, bên chị vừa phát hiện lỗi </p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="right" class="row justify-content-end">
+                                                    <p class="mes-guest mr-1 "> Lỗi gì ạ ?</p>
+                                                    <img src="Images/trans.png" style="width: 25px; height: 25px;">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="left" class="row">
+                                                    <img src="Images/trans.png" style="width: 25px; height: 25px;">
+                                                    <p class="mes-host ml-1">
+                                                        CMND của em có vấn đề</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="left" class="row">
+                                                    <img src="Images/trans.png" style="width: 25px; height: 25px;">
+                                                    <p class="mes-host ml-1">
+                                                        CMND của em không tồn tại trên hệ thống công dân VN, chị đã mời
+                                                        công an vào cuộc. </p>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div id="Paris" class="tabcontent1">
+                                        <table style="  width:100%; ">
+                                            <tr>
+                                                <td align="left" class="row">
+                                                    <img src="Images/trans.png" style="width: 25px; height: 25px;">
+                                                    <p class="mes-host ml-1">
+                                                        Ê thằng loonee</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="right" class="row justify-content-end">
+                                                    <p class="mes-guest mr-1 "> Sủa ?</p>
+                                                    <img src="Images/trans.png" style="width: 25px; height: 25px;">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="left" class="row">
+                                                    <img src="Images/trans.png" style="width: 25px; height: 25px;">
+                                                    <p class="mes-host ml-1">
+                                                        Tao có súng đó, tao bắn mày đó</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="left" class="row">
+                                                    <img src="Images/trans.png" style="width: 25px; height: 25px;">
+                                                    <p class="mes-host ml-1">
+                                                        Mày chửi thề hông ?</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="right" class="row justify-content-end">
+                                                    <p class="mes-guest mr-1 "> Dạ hông ?</p>
+                                                    <img src="Images/trans.png" style="width: 25px; height: 25px;">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="left" class="row">
+                                                    <img src="Images/trans.png" style="width: 25px; height: 25px;">
+                                                    <p class="mes-host ml-1">
+                                                        Đùa chứ hồ sơ của em cần chỉnh sửa ?</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="left" class="row">
+                                                    <img src="Images/trans.png" style="width: 25px; height: 25px;">
+                                                    <p class="mes-host ml-1">
+                                                        Đùa chứ hồ sơ của em cần chỉnh sửa ?</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="left" class="row">
+                                                    <img src="Images/trans.png" style="width: 25px; height: 25px;">
+                                                    <p class="mes-host ml-1">
+                                                        Đùa chứ hồ sơ của em cần chỉnh sửa ?</p>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div id="Tokyo" class="tabcontent1">
+                                        <table style="  width:100%; ">
+                                            <tr>
+                                                <td align="left" class="row">
+                                                    <img src="Images/trans.png" style="width: 25px; height: 25px;">
+                                                    <p class="mes-host ml-1">
+                                                        Ê thằng loonee</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="right" class="row justify-content-end">
+                                                    <p class="mes-guest mr-1 "> Sủa ?</p>
+                                                    <img src="Images/trans.png" style="width: 25px; height: 25px;">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="left" class="row">
+                                                    <img src="Images/trans.png" style="width: 25px; height: 25px;">
+                                                    <p class="mes-host ml-1">
+                                                        Tao có súng đó, tao bắn mày đó</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="left" class="row">
+                                                    <img src="Images/trans.png" style="width: 25px; height: 25px;">
+                                                    <p class="mes-host ml-1">
+                                                        Mày chửi thề hông ?</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="right" class="row justify-content-end">
+                                                    <p class="mes-guest mr-1 "> Dạ hông ?</p>
+                                                    <img src="Images/trans.png" style="width: 25px; height: 25px;">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="left" class="row">
+                                                    <img src="Images/trans.png" style="width: 25px; height: 25px;">
+                                                    <p class="mes-host ml-1">
+                                                        Đùa chứ hồ sơ của em cần chỉnh sửa ?</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="left" class="row">
+                                                    <img src="Images/trans.png" style="width: 25px; height: 25px;">
+                                                    <p class="mes-host ml-1">
+                                                        Đùa chứ hồ sơ của em cần chỉnh sửa ?</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="left" class="row">
+                                                    <img src="Images/trans.png" style="width: 25px; height: 25px;">
+                                                    <p class="mes-host ml-1">
+                                                        Đùa chứ hồ sơ của em cần chỉnh sửa ?</p>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div id="Newyork" class="tabcontent1">
+                                        <table style="  width:100%; ">
+                                            <tr>
+                                                <td align="left" class="row">
+                                                    <img src="Images/trans.png" style="width: 25px; height: 25px;">
+                                                    <p class="mes-host ml-1">
+                                                        Ê thằng loonee</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="right" class="row justify-content-end">
+                                                    <p class="mes-guest mr-1 "> Sủa ?</p>
+                                                    <img src="Images/trans.png" style="width: 25px; height: 25px;">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="left" class="row">
+                                                    <img src="Images/trans.png" style="width: 25px; height: 25px;">
+                                                    <p class="mes-host ml-1">
+                                                        Tao có súng đó, tao bắn mày đó</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="left" class="row">
+                                                    <img src="Images/trans.png" style="width: 25px; height: 25px;">
+                                                    <p class="mes-host ml-1">
+                                                        Mày chửi thề hông ?</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="right" class="row justify-content-end">
+                                                    <p class="mes-guest mr-1 "> Dạ hông ?</p>
+                                                    <img src="Images/trans.png" style="width: 25px; height: 25px;">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="left" class="row">
+                                                    <img src="Images/trans.png" style="width: 25px; height: 25px;">
+                                                    <p class="mes-host ml-1">
+                                                        Đùa chứ hồ sơ của em cần chỉnh sửa ?</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="left" class="row">
+                                                    <img src="Images/trans.png" style="width: 25px; height: 25px;">
+                                                    <p class="mes-host ml-1">
+                                                        Đùa chứ hồ sơ của em cần chỉnh sửa ?</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="left" class="row">
+                                                    <img src="Images/trans.png" style="width: 25px; height: 25px;">
+                                                    <p class="mes-host ml-1">
+                                                        Đùa chứ hồ sơ của em cần chỉnh sửa ?</p>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <table style="width: 100%;">
+                                        <tr>
+                                            <td align="left" class="row justify-content-around pt-lg-3">
+                                                <input style="width: 80%;">
+                                                <button style="width: 15%;" class="btn-sendmessage"> Gửi <i
+                                                        class="fas fa-paper-plane"></i></button>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <script>
+                                    function openCity(evt, cityName) {
+                                        var i, tabcontent, tablinks;
+                                        tabcontent = document.getElementsByClassName("tabcontent1");
+                                        for (i = 0; i < tabcontent.length; i++) {
+                                            tabcontent[i].style.display = "none";
+                                        }
+                                        tablinks = document.getElementsByClassName("tablinks");
+                                        for (i = 0; i < tablinks.length; i++) {
+                                            tablinks[i].className = tablinks[i].className.replace(" active", "");
+                                        }
+                                        document.getElementById(cityName).style.display = "block";
+                                        evt.currentTarget.className += " active";
+                                    }
+                                    window.onload = function () {
+                                        document.getElementById("defaultOpen").click();
+                                    }
+                                </script>
+                            </div>
+                        </div>
+                        <div id="thongbao" class="container tab-pane fade"><br>
+                            <div class="row">
+                                <div class="col-12">
+                                    <button class="card-noftication mt-2" style="width: 100%;">
+                                        <table style="width: 100%;">
+                                            <tr>
+                                                <td rowspan="2" style="width: 5%;" align="center"> <img
+                                                        src="Images/trans.png" class="w-100 "> </td>
+                                                <td align="left">
+                                                    <b> UIT Academic</b>
+                                                </td>
+                                            </tr>
+                                            <tr><td align="left">CMND của em không tồn tại</td></tr>
+                                        </table>
+                                    </button>
+                                    <button class="card-noftication mt-2" style="width: 100%;">
+                                        <table style="width: 100%;">
+                                            <tr>
+                                                <td rowspan="2" style="width: 5%;" align="center"> <img
+                                                        src="Images/trans.png" class="w-100 "> </td>
+                                                <td align="left">
+                                                    <b> UIT Academic</b>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="left">
+                                                    CMND của em không tồn tại
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </button>
+                                    <button class="card-noftication mt-2" style="width: 100%;">
+                                        <table style="width: 100%;">
+                                            <tr>
+                                                <td rowspan="2" style="width: 5%;" align="center"> <img
+                                                        src="Images/trans.png" class="w-100 "> </td>
+                                                <td align="left">
+                                                    <b> UIT Academic</b>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="left">
+                                                    CMND của em không tồn tại
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="background-color: #a8d4ff;">
+            <div class="container pt-3  " id="footer">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+                        <ul class="list-unstyled list-inline social text-center">
+                            <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li class="list-inline-item"><a href="javascript:void();"><i
+                                        class="fa fa-instagram"></i></a></li>
+                            <li class="list-inline-item"><a href="javascript:void();"><i
+                                        class="fa fa-google-plus"></i></a></li>
+                            <li class="list-inline-item"><a href="javascript:void();" target="_blank"><i
+                                        class="fa fa-envelope"></i></a></li>
+                        </ul>
+                    </div>
+                    <hr />
+                </div>  
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+                        <p class="" style="color: black;">
+                            <a href="#">
+                                Công Ty Cổ Phần XYY
+                            </a>
+                            quán trà sữa cổng sau Đại học Thể dục thể thao TPHCM
+                        </p>
+                        <p style="color:black;" class="h6">&copy Đã đăng ký bộ Cờ Tờ.<a class="ml-2" href="#"
+                                target="_blank">Clone by
+                                LQT</a>
+                        </p>
+                    </div>
+                    </hr>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

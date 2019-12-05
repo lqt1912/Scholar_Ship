@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="/style/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style/StyleSheet.css">
+    <link rel="stylesheet" type="text/css" href="style/footer.css">
+
+</head>
+
+<body style="background-color: #A1DFED;">
+    <div class="container-fluid bg-03203E-small ">
+        <div class="container bg-05081b-small ">
+            <nav class="navbar navbar-expand-lg navbar-dark  ">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+                    aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <img src="icon/72417960_1902717559867393_4399122052519297024_n.png" class="img-logo mb-auto ">
+
+                <div class="collapse navbar-collapse   " id="navbarTogglerDemo03">
+
+                    <ul class="navbar-nav ml-auto  bg-05081b-nav ">
+                        <li>
+                            <form class=" input-group-lg ">
+                                <input class="form-control  search-bar-no-radius" type="search" placeholder="Search"
+                                    aria-label="Search">
+                            </form>
+                        </li>
+
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#"> <i class="fas fa-graduation-cap no-border"></i> Học bổng của
+                                tôi <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"> <i class="far fa-bell"></i> Thông báo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#"> <i class="far fa-envelope"></i>Tin nhắn </a>
+                        </li>
+                        <li class="nav-link dropdown"> <i class="far fa-user-circle "></i>
+                            Lê Văn A <span style="margin-left: 1rem;" class="fas fa-ellipsis-v"></span>
+                        </li>
+                    </ul>
+
+                </div>
+            </nav>
+        </div>
+        <div class=" container  ">
+            <div class="row ">
+                <div class="col-lg-9  col-12 m-0 p-0">
+                    <ul class="nav nav-tabs d-flex  justify-content-lg-around bg-F3E4E4" role="tablist">
+                        <li class=" ">
+                            <a class=" my-link  " href="#saved" role="tab" data-toggle="tab" id="da-luu">Đã lưu</a>
+                        </li>
+                        <li class="">
+                            <a class="my-link" href="#seen" role="tab" data-toggle="tab">Đang xét</a>
+                        </li>
+                        <li class="">
+                            <a class=" my-link" href="#applied" role="tab" data-toggle="tab">Đã nộp</a>
+                        </li>
+                        <li class="">
+                            <a class=" my-link" href="#edited" role="tab" data-toggle="tab">Bổ sung</a>
+                        </li>
+                        <li class="">
+                            <a class=" my-link" href="#success" role="tab" data-toggle="tab">Thành công</a>
+                        </li>
+                    </ul>
+                    <script>
+                        $('nav-tabs a').on('click', function () {
+                            $('nav-tabs').find('li.active').removeClass('active');
+                            $(this).parent('li').addClass('active');
+                        });
+                        window.onload = function () {
+                            document.getElementById("da-luu").click();
+
+                        };
+                    </script>
+                    <!-- Tab panes -->
+                    <div class="tab-content ">
+                        <div role="tabpanel" class="tab-pane fade in active bg-white" id="saved">
+                            <div class="d-flex justify-content-center align-items-center p-2">
+                                <div class="row border bg-EBEEF5"
+                                    style="width: 78%; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);">
+                                    <div
+                                        class="col-md-3 col-sm-3 col-12 d-flex align-items-center justify-content-center">
+                                        <img class="w-100" src="Images\logo-square\bosch-vector-logo-small.png">
+                                    </div>
+                                    <div class="col-md-7 col-sm-7 col-12  ">
+                                        <p class="hb-header mt-3"> Học bổng ABCXYZ dành cho GHIK</p>
+                                        <table cellpadding="2" class="table-info">
+                                            <tr>
+                                                <td>
+                                                    <p> Tập đoàn FPT</p>
+                                                </td>
+                                                <td>
+                                                    <p> Quốc gia: Úc</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="2">
+                                                    <p> Điều kiện: GPA 4.0+ IELTS 9.0+ Graduated</p>
+                                                </td>
+
+                                            </tr>
+
+                                            <tr>
+                                                <td colspan="2">
+                                                    <p> Giá trị : 2000UAD</p>
+
+                                                </td>
+
+                                            </tr>
+                                        </table>
+                                        <p class="hastag m-2"> #iter #abc #ghi </p>
+                                    </div>
+                                    <div class="col-md-2 col-sm-2 col-12 p-0 ">
+                                        <table style="width: 100%; height: 100%;">
+                                            <tr>
+                                                <td align="right">
+                                                    <p class="small-text1 mt-2 mr-2 "> <i
+                                                            class="fas fa-map-marker-alt"></i>Ho Chi Minh</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="right">
+                                                    <p class="small-text1 mt-2 mr-2 "> <i class="fas fa-eye"></i> 999
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="right">
+                                                    <button class="btn-quantam mt-2 mb-1 mr-2"> Quan tâm </button>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="d-flex justify-content-center align-items-center p-2">
+                                <div class="row border bg-EBEEF5"
+                                    style="width: 78%; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);">
+                                    <div
+                                        class="col-md-3 col-sm-3 col-12 d-flex align-items-center justify-content-center">
+                                        <img class="w-100" src="Images\logo-square\bosch-vector-logo-small.png">
+                                    </div>
+                                    <div class="col-md-7 col-sm-7 col-12  ">
+                                        <p class="hb-header mt-3"> Học bổng ABCXYZ dành cho GHIK</p>
+                                        <table cellpadding="2" class="table-info">
+                                            <tr>
+                                                <td>
+                                                    <p> Tập đoàn FPT</p>
+                                                </td>
+                                                <td>
+                                                    <p> Quốc gia: Úc</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="2">
+                                                    <p> Điều kiện: GPA 4.0+ IELTS 9.0+ Graduated</p>
+                                                </td>
+
+                                            </tr>
+
+                                            <tr>
+                                                <td colspan="2">
+                                                    <p> Giá trị : 2000UAD</p>
+
+                                                </td>
+
+                                            </tr>
+                                        </table>
+                                        <p class="hastag m-2"> #iter #abc #ghi </p>
+                                    </div>
+                                    <div class="col-md-2 col-sm-2 col-12 p-0 ">
+                                        <table style="width: 100%; height: 100%;">
+                                            <tr>
+                                                <td align="right">
+                                                    <p class="small-text1 mt-2 mr-2 "> <i
+                                                            class="fas fa-map-marker-alt"></i>Ho Chi Minh</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="right">
+                                                    <p class="small-text1 mt-2 mr-2 "> <i class="fas fa-eye"></i> 999
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="right">
+                                                    <button class="btn-quantam mt-2 mb-1 mr-2"> Quan tâm </button>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade bg-white" id="seen">
+                            <div class="d-flex justify-content-center align-items-center p-2">
+                                <div class="row border bg-EBEEF5"
+                                    style="width: 78%; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);">
+                                    <div
+                                        class="col-md-3 col-sm-3 col-12 d-flex align-items-center justify-content-center">
+                                        <img class="w-100" src="Images\logo-square\bosch-vector-logo-small.png">
+                                    </div>
+                                    <div class="col-md-7 col-sm-7 col-12  ">
+                                        <p class="hb-header mt-3"> Học bổng ABCXYZ dành cho GHIK</p>
+                                        <table cellpadding="2" class="table-info">
+                                            <tr>
+                                                <td>
+                                                    <p> Tập đoàn FPT</p>
+                                                </td>
+                                                <td>
+                                                    <p> Quốc gia: Úc</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="2">
+                                                    <p> Điều kiện: GPA 4.0+ IELTS 9.0+ Graduated</p>
+                                                </td>
+
+                                            </tr>
+
+                                            <tr>
+                                                <td colspan="2">
+                                                    <p> Giá trị : 2000UAD</p>
+
+                                                </td>
+
+                                            </tr>
+                                        </table>
+                                        <p class="hastag m-2"> #iter #abc #ghi </p>
+                                    </div>
+                                    <div class="col-md-2 col-sm-2 col-12 p-0 ">
+                                        <table style="width: 100%; height: 100%;">
+                                            <tr>
+                                                <td align="right">
+                                                    <p class="small-text1 mt-2 mr-2 "> <i
+                                                            class="fas fa-map-marker-alt"></i>Ho Chi Minh</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="right">
+                                                    <p class="small-text1 mt-2 mr-2 "> <i class="fas fa-eye"></i> 999
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="right">
+                                                    <button class="btn-quantam mt-2 mb-1 mr-2"> Quan tâm </button>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="d-flex justify-content-center align-items-center p-2">
+                                <div class="row border bg-EBEEF5"
+                                    style="width: 78%; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);">
+                                    <div
+                                        class="col-md-3 col-sm-3 col-12 d-flex align-items-center justify-content-center">
+                                        <img class="w-100" src="Images\logo-square\bosch-vector-logo-small.png">
+                                    </div>
+                                    <div class="col-md-7 col-sm-7 col-12  ">
+                                        <p class="hb-header mt-3"> Học bổng ABCXYZ dành cho GHIK</p>
+                                        <table cellpadding="2" class="table-info">
+                                            <tr>
+                                                <td>
+                                                    <p> Tập đoàn FPT</p>
+                                                </td>
+                                                <td>
+                                                    <p> Quốc gia: Úc</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="2">
+                                                    <p> Điều kiện: GPA 4.0+ IELTS 9.0+ Graduated</p>
+                                                </td>
+
+                                            </tr>
+
+                                            <tr>
+                                                <td colspan="2">
+                                                    <p> Giá trị : 2000UAD</p>
+
+                                                </td>
+
+                                            </tr>
+                                        </table>
+                                        <p class="hastag m-2"> #iter #abc #ghi </p>
+                                    </div>
+                                    <div class="col-md-2 col-sm-2 col-12 p-0 ">
+                                        <table style="width: 100%; height: 100%;">
+                                            <tr>
+                                                <td align="right">
+                                                    <p class="small-text1 mt-2 mr-2 "> <i
+                                                            class="fas fa-map-marker-alt"></i>Ho Chi Minh</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="right">
+                                                    <p class="small-text1 mt-2 mr-2 "> <i class="fas fa-eye"></i> 999
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="right">
+                                                    <button class="btn-quantam mt-2 mb-1 mr-2"> Quan tâm </button>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="d-flex justify-content-center align-items-center p-2">
+                                <div class="row border bg-EBEEF5"
+                                    style="width: 78%; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);">
+                                    <div
+                                        class="col-md-3 col-sm-3 col-12 d-flex align-items-center justify-content-center">
+                                        <img class="w-100" src="Images\logo-square\bosch-vector-logo-small.png">
+                                    </div>
+                                    <div class="col-md-7 col-sm-7 col-12  ">
+                                        <p class="hb-header mt-3"> Học bổng ABCXYZ dành cho GHIK</p>
+                                        <table cellpadding="2" class="table-info">
+                                            <tr>
+                                                <td>
+                                                    <p> Tập đoàn FPT</p>
+                                                </td>
+                                                <td>
+                                                    <p> Quốc gia: Úc</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="2">
+                                                    <p> Điều kiện: GPA 4.0+ IELTS 9.0+ Graduated</p>
+                                                </td>
+
+                                            </tr>
+
+                                            <tr>
+                                                <td colspan="2">
+                                                    <p> Giá trị : 2000UAD</p>
+
+                                                </td>
+
+                                            </tr>
+                                        </table>
+                                        <p class="hastag m-2"> #iter #abc #ghi </p>
+                                    </div>
+                                    <div class="col-md-2 col-sm-2 col-12 p-0 ">
+                                        <table style="width: 100%; height: 100%;">
+                                            <tr>
+                                                <td align="right">
+                                                    <p class="small-text1 mt-2 mr-2 "> <i
+                                                            class="fas fa-map-marker-alt"></i>Ho Chi Minh</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="right">
+                                                    <p class="small-text1 mt-2 mr-2 "> <i class="fas fa-eye"></i> 999
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="right">
+                                                    <button class="btn-quantam mt-2 mb-1 mr-2"> Quan tâm </button>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade bg-white" id="applied">
+                            <div class="d-flex justify-content-center align-items-center p-2">
+                                <div class="row border bg-EBEEF5"
+                                    style="width: 78%; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);">
+                                    <div
+                                        class="col-md-3 col-sm-3 col-12 d-flex align-items-center justify-content-center">
+                                        <img class="w-100" src="Images\logo-square\bosch-vector-logo-small.png">
+                                    </div>
+                                    <div class="col-md-7 col-sm-7 col-12  ">
+                                        <p class="hb-header mt-3"> Học bổng ABCXYZ dành cho GHIK</p>
+                                        <table cellpadding="2" class="table-info">
+                                            <tr>
+                                                <td>
+                                                    <p> Tập đoàn FPT</p>
+                                                </td>
+                                                <td>
+                                                    <p> Quốc gia: Úc</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="2">
+                                                    <p> Điều kiện: GPA 4.0+ IELTS 9.0+ Graduated</p>
+                                                </td>
+
+                                            </tr>
+
+                                            <tr>
+                                                <td colspan="2">
+                                                    <p> Giá trị : 2000UAD</p>
+
+                                                </td>
+
+                                            </tr>
+                                        </table>
+                                        <p class="hastag m-2"> #iter #abc #ghi </p>
+                                    </div>
+                                    <div class="col-md-2 col-sm-2 col-12 p-0 ">
+                                        <table style="width: 100%; height: 100%;">
+                                            <tr>
+                                                <td align="right">
+                                                    <p class="small-text1 mt-2 mr-2 "> <i
+                                                            class="fas fa-map-marker-alt"></i>Ho Chi Minh</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="right">
+                                                    <p class="small-text1 mt-2 mr-2 "> <i class="fas fa-eye"></i> 999
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="right">
+                                                    <button class="btn-quantam mt-2 mb-1 mr-2"> Quan tâm </button>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center p-2">
+                                <div class="row border bg-EBEEF5"
+                                    style="width: 78%; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);">
+                                    <div
+                                        class="col-md-3 col-sm-3 col-12 d-flex align-items-center justify-content-center">
+                                        <img class="w-100" src="Images\logo-square\bosch-vector-logo-small.png">
+                                    </div>
+                                    <div class="col-md-7 col-sm-7 col-12  ">
+                                        <p class="hb-header mt-3"> Học bổng ABCXYZ dành cho GHIK</p>
+                                        <table cellpadding="2" class="table-info">
+                                            <tr>
+                                                <td>
+                                                    <p> Tập đoàn FPT</p>
+                                                </td>
+                                                <td>
+                                                    <p> Quốc gia: Úc</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="2">
+                                                    <p> Điều kiện: GPA 4.0+ IELTS 9.0+ Graduated</p>
+                                                </td>
+
+                                            </tr>
+
+                                            <tr>
+                                                <td colspan="2">
+                                                    <p> Giá trị : 2000UAD</p>
+
+                                                </td>
+
+                                            </tr>
+                                        </table>
+                                        <p class="hastag m-2"> #iter #abc #ghi </p>
+                                    </div>
+                                    <div class="col-md-2 col-sm-2 col-12 p-0 ">
+                                        <table style="width: 100%; height: 100%;">
+                                            <tr>
+                                                <td align="right">
+                                                    <p class="small-text1 mt-2 mr-2 "> <i
+                                                            class="fas fa-map-marker-alt"></i>Ho Chi Minh</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="right">
+                                                    <p class="small-text1 mt-2 mr-2 "> <i class="fas fa-eye"></i> 999
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="right">
+                                                    <button class="btn-quantam mt-2 mb-1 mr-2"> Quan tâm </button>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center p-2">
+                                <div class="row border bg-EBEEF5"
+                                    style="width: 78%; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);">
+                                    <div
+                                        class="col-md-3 col-sm-3 col-12 d-flex align-items-center justify-content-center">
+                                        <img class="w-100" src="Images\logo-square\bosch-vector-logo-small.png">
+                                    </div>
+                                    <div class="col-md-7 col-sm-7 col-12  ">
+                                        <p class="hb-header mt-3"> Học bổng ABCXYZ dành cho GHIK</p>
+                                        <table cellpadding="2" class="table-info">
+                                            <tr>
+                                                <td>
+                                                    <p> Tập đoàn FPT</p>
+                                                </td>
+                                                <td>
+                                                    <p> Quốc gia: Úc</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="2">
+                                                    <p> Điều kiện: GPA 4.0+ IELTS 9.0+ Graduated</p>
+                                                </td>
+
+                                            </tr>
+
+                                            <tr>
+                                                <td colspan="2">
+                                                    <p> Giá trị : 2000UAD</p>
+
+                                                </td>
+
+                                            </tr>
+                                        </table>
+                                        <p class="hastag m-2"> #iter #abc #ghi </p>
+                                    </div>
+                                    <div class="col-md-2 col-sm-2 col-12 p-0 ">
+                                        <table style="width: 100%; height: 100%;">
+                                            <tr>
+                                                <td align="right">
+                                                    <p class="small-text1 mt-2 mr-2 "> <i
+                                                            class="fas fa-map-marker-alt"></i>Ho Chi Minh</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="right">
+                                                    <p class="small-text1 mt-2 mr-2 "> <i class="fas fa-eye"></i> 999
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="right">
+                                                    <button class="btn-quantam mt-2 mb-1 mr-2"> Quan tâm </button>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center p-2">
+                                <div class="row border bg-EBEEF5"
+                                    style="width: 78%; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);">
+                                    <div
+                                        class="col-md-3 col-sm-3 col-12 d-flex align-items-center justify-content-center">
+                                        <img class="w-100" src="Images\logo-square\bosch-vector-logo-small.png">
+                                    </div>
+                                    <div class="col-md-7 col-sm-7 col-12  ">
+                                        <p class="hb-header mt-3"> Học bổng ABCXYZ dành cho GHIK</p>
+                                        <table cellpadding="2" class="table-info">
+                                            <tr>
+                                                <td>
+                                                    <p> Tập đoàn FPT</p>
+                                                </td>
+                                                <td>
+                                                    <p> Quốc gia: Úc</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="2">
+                                                    <p> Điều kiện: GPA 4.0+ IELTS 9.0+ Graduated</p>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td colspan="2">
+                                                    <p> Giá trị : 2000UAD</p>
+
+                                                </td>
+
+                                            </tr>
+                                        </table>
+                                        <p class="hastag m-2"> #iter #abc #ghi </p>
+                                    </div>
+                                    <div class="col-md-2 col-sm-2 col-12 p-0 ">
+                                        <table style="width: 100%; height: 100%;">
+                                            <tr>
+                                                <td align="right">
+                                                    <p class="small-text1 mt-2 mr-2 "> <i
+                                                            class="fas fa-map-marker-alt"></i>Ho Chi Minh</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="right">
+                                                    <p class="small-text1 mt-2 mr-2 "> <i class="fas fa-eye"></i> 999
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="right">
+                                                    <button class="btn-quantam mt-2 mb-1 mr-2"> Quan tâm </button>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade bg-white" id="edited">
+                            <div class="d-flex justify-content-center align-items-center  ">
+                                <div style=" text-align: center">
+                                    Mục này trống
+                                </div>
+                            </div>
+
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade bg-white" id="success">
+                            <div class="d-flex justify-content-center align-items-center p-2">
+                                <div class="row border bg-EBEEF5"
+                                    style="width: 78%; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);">
+                                    <div
+                                        class="col-md-3 col-sm-3 col-12 d-flex align-items-center justify-content-center">
+                                        <img class="w-100" src="Images\logo-square\bosch-vector-logo-small.png">
+                                    </div>
+                                    <div class="col-md-7 col-sm-7 col-12  ">
+                                        <p class="hb-header mt-3"> Học bổng ABCXYZ dành cho GHIK</p>
+                                        <table cellpadding="2" class="table-info">
+                                            <tr>
+                                                <td>
+                                                    <p> Tập đoàn FPT</p>
+                                                </td>
+                                                <td>
+                                                    <p> Quốc gia: Úc</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="2">
+                                                    <p> Điều kiện: GPA 4.0+ IELTS 9.0+ Graduated</p>
+                                                </td>
+
+                                            </tr>
+
+                                            <tr>
+                                                <td colspan="2">
+                                                    <p> Giá trị : 2000UAD</p>
+
+                                                </td>
+
+                                            </tr>
+                                        </table>
+                                        <p class="hastag m-2"> #iter #abc #ghi </p>
+                                    </div>
+                                    <div class="col-md-2 col-sm-2 col-12 p-0 ">
+                                        <table style="width: 100%; height: 100%;">
+                                            <tr>
+                                                <td align="right">
+                                                    <p class="small-text1 mt-2 mr-2 "> <i
+                                                            class="fas fa-map-marker-alt"></i>Ho Chi Minh</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="right">
+                                                    <p class="small-text1 mt-2 mr-2 "> <i class="fas fa-eye"></i> 999
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="right">
+                                                    <button class="btn-quantam mt-2 mb-1 mr-2"> Quan tâm </button>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3  bg-gray  d-flex align-items-center justify-content-center d-none d-lg-block pt-5 "
+                    style="height: 822px;">
+
+                    <div class="avatar d-none d-lg-block ">
+                        <img src="Images/trans.png" class="w-75 d-block m-auto">
+                        <div class="name"> Nguyễn Văn A
+                            <i class="fas fa-mars"></i>
+                        </div>
+                    </div>
+                    <div class="info mt-2 ml-4 d-none d-lg-block ">
+                        <p> <i class="fas fa-home"></i> Ho Chi Minh City</p>
+                        <p> <i class="fas fa-graduation-cap"></i> THPT Phú Nhuận</p>
+                        <p> <i class="fas fa-graduation-cap" style="color: transparent;"></i> ĐH CNTT </p>
+                        <p> <i class="fas fa-birthday-cake"></i> 31/2/1999</p>
+                        <p> <i class="fas fa-trophy"></i> Thủ khoa đầu vào 2017 </p>
+                        <p> <i class="fas fa-trophy" style="color: transparent"></i> Á khoa đầu ra 2021</p>
+                        <p> <i class="fas fa-envelope"> nva@gmail.gom </i></p>
+                        <p> <i class="fas fa-phone"> 012345789</i></p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div style="background-color: #a8d4ff;">
+            <div class="container pt-3  " id="footer">
+
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+                        <ul class="list-unstyled list-inline social text-center">
+                            <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li class="list-inline-item"><a href="javascript:void();"><i
+                                        class="fa fa-instagram"></i></a></li>
+                            <li class="list-inline-item"><a href="javascript:void();"><i
+                                        class="fa fa-google-plus"></i></a></li>
+                            <li class="list-inline-item"><a href="javascript:void();" target="_blank"><i
+                                        class="fa fa-envelope"></i></a></li>
+                        </ul>
+                    </div>
+                    <hr />
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+                        <p class="" style="color: black;">
+
+                            <a href="#">
+                                Công Ty Cổ Phần XYY
+                            </a>
+
+                            quán trà sữa cổng sau Đại học Thể dục thể thao TPHCM
+                        </p>
+
+                        <p style="color: black;" class="h6">&copy Đã đăng ký bộ Cờ Tờ.<a class="ml-2" href="#" target="_blank">Clone by
+                                LQT</a>
+                        </p>
+                    </div>
+                    </hr>
+                </div>
+            </div>
+        </div>
+</body>
