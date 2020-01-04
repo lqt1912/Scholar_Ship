@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link rel="import" href="header1.html">
+</head>
+
+<body style="background-color: #A1DFED;">
+    <div class="container-fluid bg-03203E-small p-0 ">
+        <div class="container bg-05081b-small p-0 ">
+            <div id="nav-bar">
+                <script>
+                    $(function () {
+                        $("#nav-bar").load("navbar2.html");
+                    })</script>
+            </div>
+        </div>
+
+        <div class=" container  ">
+            <div class="row ">
+                <div class="col-lg-8  col-12 m-0 p-0">
+
+                    <ul class="nav nav-tabs md-tabs row d-flex justify-content-around m-0"
+                        style="background-color: #03203E;" id="myTabMD" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#1" role="tab" data-toggle="tab" style="color: white;">Mọi người</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#2" role="tab" data-toggle="tab" style="color: white;">Học bổng </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#3" role="tab" data-toggle="tab" style="color: white;">Công ty </a>
+                        </li>
+
+                       
+                    </ul>
+
+                    <div class="tab-content card pt-3 bg-white" id="myTabContentMD">
+                        <div class="tab-pane fade show active" id="1" role="tabpanel" aria-labelledby="home-tab-md">
+                            <div class="scholar-list-box">
+                                <p class="pl-5"> Kết quả tìm kiếm cho "people"</p>
+                                <a href="taikhoan-other.html" class="no-decorate">
+                                    <div id="people1">
+                                        <script>
+                                        $(function () {
+                                            $("#people1").load("people1.html");
+                                        })</script>
+                                    </div>
+                                </a>
+                               
+                                <div id="people2">
+                                    <script>
+                                    $(function () {
+                                        $("#people2").load("people2.html");
+                                    })</script>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="2" role="tabpanel" aria-labelledby="profile-tab-md">
+                            <p class="pl-5"> Kết quả tìm kiếm cho "scholarship"</p>
+                            <div class="scholar-list-box">
+                                <a href="#" class="no-decorate"> 
+                                    <div id="scholar-3">
+                                        <script>
+                                            $(function () {
+                                                $("#scholar-3").load("overview1.html")
+                                            })</script>
+                                    </div>
+                                </a>
+                                <a href="#" class="no-decorate">
+                                    <div id="scholar-4">
+                                        <script>
+                                            $(function () {
+                                                $("#scholar-4").load("overview2.html")
+                                            })</script>
+                                    </div>
+                                </a>
+                                
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="3" role="tabpanel" aria-labelledby="contact-tab-md">
+                            <p class="pl-5"> Kết quả tìm kiếm cho "company"</p>
+                            <div class="scholar-list-box">
+                              
+                                <a href="cong-ty-info-1.html" class="no-decorate">
+                                    <div id="company-1">
+                                        <script>
+                                            $(function () {
+                                                $("#company-1").load("company1.html")
+                                            })</script>
+                                    </div>
+                                </a>
+                                
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+
+
+                <div class=" col-lg-4 col-sm-12 col-12 border-left d-none d-lg-block bg-white" style="height: 873px;">
+                    <p class="text-black m-1 pt-2 pb-2" style="font-size: 15pt; line-height: 1;"> Được quan tâm </p>
+                    <div id="duoc-quan-tam">
+                        <script>
+                            $(function () {
+                                $("#duoc-quan-tam").load("duoc-quan-tam.html");
+                            })
+                        </script>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="container pt-3 bg-03203E " id="footer">
+            <div id="foooter">
+                <script>
+                    $(function () {
+                        $("#foooter").load("footer.html");
+                    })</script>
+            </div>
+
+        </div>
+    </div>
+</body>
