@@ -9,8 +9,9 @@
     height: 874px;
 }
 .scholar-overview-hot{
+
     background-color:  rgb(245, 245, 245);
-    box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.3);
+    /* box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.3); */
     border: none;
     background: #fff1e1 !important;
     transition: 0.1s ease-in-out;
@@ -22,7 +23,7 @@
 }
 
 .scholar-overview{
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+    /* box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15); */
     background-color: rgb(250, 250,250);
 
 }
