@@ -1,12 +1,16 @@
 .btn-sendmessage{
+    border: 1px solid rgb(0, 132, 255);
     background: white;      
     color: black;
     margin: 1;
+    padding: 0;
 }
 
-.btn-sendmessage:hover{
-  background: #632f2f;
-  color: white;
+.btn-sendmessage i{
+    color: rgb(0, 132, 255) ;
+}
+
+.btn-sendmessage i:hover{
   transition: 0.3s;
 }
 
