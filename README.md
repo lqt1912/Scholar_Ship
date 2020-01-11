@@ -22,7 +22,7 @@
 - Mở trình duyệt dưới dạng ẩn danh, truy cập vào đường dẫn sau: 
   * Người tìm học bổng: http://localhost/Scholar_Ship/page/
   * Người trao học bổng: http://localhost/Scholar_Ship/Scholar_Ship2/page/
-- Mở tất cả các file trong thư mục bằng trình duyệt trên đường dẫn localhost và refresh trang. 
+- Nếu có lỗi ngoài ý muốn, vui lòng mở tất cả các file trong thư mục bằng trình duyệt trên đường dẫn localhost và refresh trang. 
 - Lúc này giao diện đã sẵn sàng kiểm thử và sử dụng.
   
 
