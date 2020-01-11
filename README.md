@@ -18,7 +18,7 @@
 ### Hướng dẫn cài đặt 
 - Tải và cài đặt Ampps tại https://www.ampps.com/
 - Khởi động lại máy tính. Khởi động Ampps.
-- Tải Source code của đồ án từ Github này về. Copy dán vào C:\Program Files\Ampps\www\...
+- Tải Source code của đồ án từ Github này về. Copy dán vào C:\Program Files\Ampps\www\
 - Mở trình duyệt dưới dạng ẩn danh, truy cập vào đường dẫn sau: 
   * Người tìm học bổng: http://localhost/Scholar_Ship/page/
   * Người trao học bổng: http://localhost/Scholar_Ship/Scholar_Ship2/page/
